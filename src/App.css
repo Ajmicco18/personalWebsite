@@ -19,6 +19,10 @@ li {
     font-size: 40px;
 }
 
+li.header {
+    font-size: 25px;
+}
+
 li.header:hover {
     text-decoration: underline;
     color: skyblue;
