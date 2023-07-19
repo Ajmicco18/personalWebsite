@@ -1,11 +1,11 @@
 import './App.css';
 import { Nav } from "./Nav.jsx"
-import { Header } from './Header';
+import { Header } from './Header.jsx';
 
 function App() {
   return (
     <>
-      <Nav> </Nav>
+      <Nav></Nav>
       <Header></Header>
 
     </>
