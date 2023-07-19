@@ -1,10 +1,12 @@
 import './App.css';
-import { Header } from "./Header.jsx"
+import { Nav } from "./Nav.jsx"
+import { AboutMe } from './AboutMe';
 
 function App() {
   return (
     <>
-      <Header> </Header>
+      <Nav> </Nav>
+      <AboutMe></AboutMe>
 
     </>
 

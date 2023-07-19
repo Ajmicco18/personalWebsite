@@ -1,6 +1,36 @@
 body {
-    background-color: darkgray;
+    background-color: rgb(63, 63, 63);
+    margin: 0;
+    padding: 0;
 }
+
+/*****Nav********/
+
+
+
+
+/*****About Me********/
+section {
+    border: 3px solid black;
+    padding: 100px;
+    margin: auto;
+    width: 75%;
+    height: 500px;
+}
+
+img {
+    width: 600px;
+    height: 630px;
+    position: relative;
+    left: 885px;
+    top: -165px;
+
+}
+
+
+
+/*****Experience********/
+
 
 ul {
     margin: 0;
