@@ -1,8 +1,17 @@
 export function Nav() {
     return (
-        <div>
-            <h1>Hi</h1>
-        </div>
+        <>
+            <header>
+                <nav>
+                    <ul>
+                        <li>About Me</li>
+                        <li>Experience</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </header>
+        </>
 
     )
 }

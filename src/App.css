@@ -10,29 +10,23 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-align: center;
 }
 
 li {
     display: inline-block;
-    margin-left: 20px;
-    padding: 30px;
+    padding: 75px;
+    margin: 0 100px;
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
 }
 
-li.header {
-    font-size: 25px;
-}
-
-li.header:hover {
+li:hover {
     text-decoration: underline;
     color: skyblue;
 }
 
-li:first-child {
-    margin-left: 0;
-}
 
 
 /********Header********/
@@ -44,12 +38,24 @@ section {
     height: 500px;
 }
 
+.name {
+    position: relative;
+    top: -100px;
+    font-size: 100px;
+}
+
+.about {
+    position: relative;
+    top: -150px;
+    font-size: 30px;
+}
+
 img {
     width: 600px;
     height: 630px;
     position: relative;
     left: 885px;
-    top: -165px;
+    top: -440px;
 
 }
 
