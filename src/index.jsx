@@ -1,6 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Container } from 'react-bootstrap'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
