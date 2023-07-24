@@ -41,19 +41,21 @@ section {
 .name {
     position: relative;
     top: -100px;
+    left: -35px;
     font-size: 100px;
 }
 
 .about {
     position: relative;
     top: -100px;
+    left: -35px;
     font-size: 30px;
 }
 
 .socials {
     position: relative;
     top: -450px;
-    left: -375px;
+    left: -345px;
     list-style-type: none;
     text-align: center;
 }
@@ -61,7 +63,7 @@ section {
 .socialLink {
     display: inline-block;
     padding: 15px;
-    margin: 0 10px;
+    margin: 0 20px;
     border-radius: 3px;
 
 }

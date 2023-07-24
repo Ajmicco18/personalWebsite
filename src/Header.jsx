@@ -1,6 +1,6 @@
 import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { Container } from "react-bootstrap";
 
 export function Header() {
     return (
