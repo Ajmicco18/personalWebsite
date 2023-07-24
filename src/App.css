@@ -16,10 +16,10 @@ ul {
 li {
     display: inline-block;
     padding: 75px;
-    margin: 0 100px;
+    margin: 0 55px;
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 li:hover {
@@ -48,6 +48,47 @@ section {
     position: relative;
     top: -100px;
     font-size: 30px;
+}
+
+.socials {
+    position: relative;
+    top: -450px;
+    left: -375px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.socialLink {
+    display: inline-block;
+    padding: 15px;
+    margin: 0 10px;
+    border-radius: 3px;
+
+}
+
+.insta {
+    color: white;
+    font-size: 5rem;
+}
+
+.github {
+    color: white;
+    font-size: 5rem;
+}
+
+.linkedin {
+    color: white;
+    font-size: 5rem;
+}
+
+.resume {
+    border-radius: 8px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 32px;
+    position: relative;
+    top: -20px;
+    text-align: center;
 }
 
 img {
