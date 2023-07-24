@@ -7,7 +7,7 @@ export function Header() {
         <section>
             <h1 className="name">Anthony Micco</h1>
             <p className="about">I'm an aspiring software engineer pursuing a computer<br></br>science degree at Youngstown State University </p>
-            <img src="../portrait.jpg" alt="self portrait" />
+            <img src="../images/portrait.jpg" alt="self portrait" />
             <ul className="socials">
                 <li className="socialLink">
                     <a className="github" href='https://github.com/Ajmicco18' target="_blank">
@@ -25,7 +25,7 @@ export function Header() {
                     </a>
                 </li>
                 <li className="socialLink">
-                    <a href='../anthony_micco_resume.pdf' target="_blank">
+                    <a href='../images/anthony_micco_resume.pdf' target="_blank">
                         <button className="resume">Resume</button>
                     </a>
 
