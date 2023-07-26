@@ -1,10 +1,9 @@
 import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Container } from "react-bootstrap";
 
 export function Header() {
     return (
-        <section>
+        <section className="header">
             <h1 className="name">Anthony Micco</h1>
             <p className="about">I'm an aspiring software engineer pursuing a computer<br></br>science degree at Youngstown State University </p>
             <img src="../images/portrait.jpg" alt="self portrait" />

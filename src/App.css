@@ -30,7 +30,7 @@ li:hover {
 
 
 /********Header********/
-section {
+.header {
     border: 3px solid black;
     padding: 100px;
     margin: auto;
@@ -103,6 +103,24 @@ img {
 }
 
 /********AboutMe********/
+.about-me {
+    padding: 200px;
+    margin: auto;
+    background-color: skyblue;
+    height: 500px;
+    width: 90%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 
 
 /********Experience********/
+
+
+/********Footer********/
+footer {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}

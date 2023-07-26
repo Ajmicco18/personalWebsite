@@ -1,7 +1,7 @@
 export function AboutMe() {
     return (
-        <>
-            <h1>Hello!</h1>
-        </>
+        <section className="about-me">
+            <header>About Me</header>
+        </section>
     )
 }
