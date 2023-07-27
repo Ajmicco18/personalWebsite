@@ -107,6 +107,7 @@ img {
     padding: 200px;
     margin: auto;
     background-color: skyblue;
+    display: grid;
     height: 500px;
     width: 90%;
     font-size: 30px;
