@@ -5,7 +5,10 @@ export function Header() {
     return (
         <section className="header">
             <h1 className="name">Anthony Micco</h1>
-            <p className="about">I'm an aspiring software engineer pursuing a computer<br></br>science degree at Youngstown State University </p>
+            <p className="about">
+                I'm an aspiring software engineer pursuing computer science<br></br>
+                and mathematics degrees at Youngstown State University
+            </p>
             <img src="../images/portrait.jpg" alt="self portrait" />
             <ul className="socials">
                 <li className="socialLink">

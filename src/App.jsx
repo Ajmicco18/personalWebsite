@@ -7,10 +7,11 @@ import { AboutMe } from './AboutMe';
 function App() {
   return (
     <>
+
       <Nav></Nav>
       <Header></Header>
       <AboutMe></AboutMe>
-      <footer>Designed and Developed by Anthony Micco 2023</footer>
+      <footer>Designed and Developed by Anthony Micco</footer>
 
     </>
 

@@ -3,10 +3,10 @@ export function Nav() {
         <>
             <nav>
                 <ul>
-                    <li>About Me</li>
-                    <li>Experience</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li className="nav">About Me</li>
+                    <li className="nav">Experience</li>
+                    <li className="nav">Projects</li>
+                    <li className="nav">Contact</li>
                 </ul>
             </nav>
         </>
