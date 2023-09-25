@@ -37,8 +37,11 @@ export function AboutMe() {
                         <li className="lang">HTML</li>
                         <li className="lang">Javascript</li>
                         <li className="lang">React</li>
-                        <li className="lang">GitHub</li>
+                        <li className="lang">R</li>
+                        <li className="lang">MongoDB</li>
+                        <li className="lang">Git</li>
                         <li className="lang">VS Code</li>
+
                     </ul>
                 </div>
             </div>
