@@ -159,6 +159,17 @@ img {
 
 
 /********Experience********/
+.experience {
+    margin-top: 300px;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .container {
+        height: 500px;
+        flex-direction: column;
+    }
+}
 
 
 /********Footer********/
