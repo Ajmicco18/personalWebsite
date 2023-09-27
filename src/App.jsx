@@ -8,14 +8,12 @@ import { Experience } from './Experience';
 function App() {
   return (
     <>
-      <body>
-        <Nav></Nav>
-        <Header></Header>
-        <AboutMe></AboutMe>
-        <Experience></Experience>
-        <footer> Designed and Developed by Anthony Micco &copy;2023 </footer>
 
-      </body>
+      <Nav></Nav>
+      <Header></Header>
+      <AboutMe></AboutMe>
+      <Experience></Experience>
+      <footer> Designed and Developed by Anthony Micco &copy;2023 </footer>
 
     </>
 

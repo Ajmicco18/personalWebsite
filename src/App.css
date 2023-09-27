@@ -9,7 +9,6 @@ body {
 }
 
 /********Nav********/
-
 ul {
     margin: 0;
     padding: 0;
@@ -47,6 +46,7 @@ ul {
     top: -100px;
     left: -35px;
     font-size: 100px;
+    color: white;
 }
 
 .about {
@@ -54,6 +54,7 @@ ul {
     top: -100px;
     left: -35px;
     font-size: 30px;
+    color: white;
 }
 
 .socials {
@@ -107,7 +108,6 @@ img {
 }
 
 /********AboutMe********/
-
 .about-me {
     margin-top: 75px;
 }
