@@ -13,7 +13,7 @@ function App() {
         <Header></Header>
         <AboutMe></AboutMe>
         <Experience></Experience>
-        <footer>Designed and Developed by Anthony Micco</footer>
+        <footer> Designed and Developed by Anthony Micco &copy;2023 </footer>
 
       </body>
 
