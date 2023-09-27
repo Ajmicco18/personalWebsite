@@ -26,7 +26,6 @@ ul {
 }
 
 .nav:hover {
-    text-decoration: underline;
     color: skyblue;
 }
 
@@ -78,14 +77,26 @@ ul {
     font-size: 5rem;
 }
 
+.insta:hover {
+    color: skyblue;
+}
+
 .github {
     color: white;
     font-size: 5rem;
 }
 
+.github:hover {
+    color: skyblue;
+}
+
 .linkedin {
     color: white;
     font-size: 5rem;
+}
+
+.linkedin:hover {
+    color: skyblue;
 }
 
 .resume {
@@ -96,6 +107,10 @@ ul {
     position: relative;
     top: -20px;
     text-align: center;
+}
+
+.resume:hover {
+    background-color: skyblue;
 }
 
 img {
