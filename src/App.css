@@ -69,7 +69,6 @@ ul {
     padding: 15px;
     margin: 0 20px;
     border-radius: 3px;
-
 }
 
 .insta {
@@ -203,8 +202,28 @@ img {
 
 /********Experience********/
 .experience {
-    margin-top: 300px;
+    margin-top: 150px;
     color: white;
+}
+
+.exp {
+    display: grid;
+    justify-content: left;
+    max-width: fit-content;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: gray solid;
+}
+
+.exp li {
+    border: gray solid;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+}
+
+.exp li:hover {
+    background-color: skyblue;
 }
 
 @media (max-width: 400px) {
