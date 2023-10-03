@@ -1,11 +1,12 @@
 export function Experience() {
+
     return (
 
         <section className="experience">
             <div className="container">
                 <h1>Experience</h1>
                 <ul className="exp">
-                    <li id="bdmn">Boardman Local Schools</li>
+                    <li>Boardman Local Schools</li>
                     <li>Boardman Local Schools</li>
                     <li>Clear Cut Stump Grinding</li>
                 </ul>
