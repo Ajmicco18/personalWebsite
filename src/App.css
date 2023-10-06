@@ -209,6 +209,7 @@ img {
 .exp {
     display: grid;
     justify-content: left;
+    grid-column: 1;
     max-width: fit-content;
     font-size: 20px;
     color: black;
@@ -216,14 +217,21 @@ img {
     border: gray solid;
 }
 
-.exp li {
+.exp button {
     border: gray solid;
     border-radius: 5px;
     padding: 20px 10px 20px 10px;
 }
 
-.exp li:hover {
+.exp button:hover {
     background-color: skyblue;
+}
+
+.exp_para {
+    width: 50%;
+    grid-column: 8;
+    grid-row: 2;
+
 }
 
 @media (max-width: 400px) {
