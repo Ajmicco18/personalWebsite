@@ -34,7 +34,7 @@ export function Experience() {
             <div className="container">
                 <h1>Experience</h1>
                 <ul className="exp">
-                    <button onClick={() => test()} >Boardman Local Schools</button>
+                    <button>Boardman Local Schools</button>
                     <button>Boardman Local Schools</button>
                     <button>Clear Cut Stump Grinding</button>
                 </ul>
