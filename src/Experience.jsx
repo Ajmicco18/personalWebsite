@@ -5,7 +5,10 @@ export function Experience() {
             jobTitle: "Assistant Middle School Football Coach",
             Company: "Boardman Local School District",
             duration: "June 2022-Present",
-            text: ["As a middle school football coach."]
+            text: ["As an assistant middle school football coach, I was responsible",
+                "for coaching the offensive lineman. I would demonstrate and explain",
+                "basic techniques and ideas to the players to ensure they had a better",
+                "understanding of football, specifically the offensive line."]
         },
 
         {
@@ -13,8 +16,12 @@ export function Experience() {
             jobTitle: "Computer Technology Intern",
             Company: "Boardman Local School District",
             duration: "January 2023-August 2023",
-            text: ["As a computer technology intern for the Boardman Local Schools, I was responsible",
-                "for responding to teacher's and staff's help-desk tickets involving their technology."]
+            text: ["In my role as a Computer Technology Intern for the Boardman Local School District,",
+                "I was largely responsible for responding to help-desk tickets from teachers and",
+                "staff throughout the district. In addition, I was in charge of maintaining the",
+                "inventory of the district's devices as well as repairing damaged Chromebooks.",
+                "Furthermore, my role included ensuring that each room in the district had updated",
+                "and operating devices."]
         },
 
         {
@@ -22,7 +29,12 @@ export function Experience() {
             jobTitle: "Landscaper",
             Company: "Clear Cut Stump Grinding",
             duration: "March 2019-August 2022",
-            text: ["As a landscaper"]
+            text: ["In my role as a landscaper for Clear Cut Stump Grinding,",
+                "I was largely responsible for clearing away excess wood",
+                "chips from the work area to ensure the entire stump was clear.",
+                "In addition, I would haul wheelbarrows of topsoil and landscape",
+                "rock to the work site. Furthermore, I laid landscape fabric and",
+                "spread grass seed in contribution to the project we were working on."]
 
         }
     ]
