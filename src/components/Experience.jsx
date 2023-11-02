@@ -1,4 +1,4 @@
-export function Experience() {
+export default function Experience() {
     const jobs = [
         {
             id: 1,

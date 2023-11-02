@@ -1,7 +1,7 @@
 import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export function Header() {
+export default function Header() {
     return (
         <section className="header">
             <h1 className="name">Anthony Micco</h1>

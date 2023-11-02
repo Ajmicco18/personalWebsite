@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
-import { Nav } from "./Nav.jsx"
-import { Header } from './Header.jsx';
-import { AboutMe } from './AboutMe';
-import { Experience } from './Experience';
+import './App.css'
+import Nav from "./components/Nav.jsx"
+import Header from './components/Header.jsx'
+import AboutMe from './components/AboutMe'
+import Experience from './components/Experience'
 
 function App() {
   return (
