@@ -2,13 +2,15 @@ export default function Experience() {
     const jobs = [
         {
             id: 1,
-            jobTitle: "Assistant Middle School Football Coach",
+            jobTitle: "Middle School Football Coach",
             Company: "Boardman Local School District",
-            duration: "June 2022-Present",
-            text: ["As an assistant middle school football coach, I was responsible",
+            duration: "June 2022-October 2023",
+            text: ["As a middle school football coach, I was responsible",
                 "for coaching the offensive lineman. I would demonstrate and explain",
                 "basic techniques and ideas to the players to ensure they had a better",
-                "understanding of football, specifically the offensive line."]
+                "understanding of football, specifically the offensive line. In addition,",
+                "I would contribute to the gameplan preparation to ensure the athletes were",
+                "ready to perform to their highest standard."]
         },
 
         {
