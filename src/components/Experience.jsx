@@ -20,7 +20,7 @@ export default function Experience() {
                 "I was largely responsible for responding to help-desk tickets from teachers and",
                 "staff throughout the district. In addition, I was in charge of maintaining the",
                 "inventory of the district's devices as well as repairing damaged Chromebooks.",
-                "Furthermore, my role included ensuring that each room in the district had updated",
+                "Furthermore, my role included ensuring that each classroom in the district had updated",
                 "and operating devices."]
         },
 
