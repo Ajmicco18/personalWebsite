@@ -10,7 +10,7 @@ export default function Experience() {
                 "basic techniques and ideas to the players to ensure they had a better",
                 "understanding of football, specifically the offensive line. In addition,",
                 "I would contribute to the gameplan preparation to ensure the athletes were",
-                "ready to perform to their highest standard."]
+                "prepared to play their game."]
         },
 
         {
@@ -41,6 +41,9 @@ export default function Experience() {
         }
     ]
 
+    const handleClick = () => {
+
+    }
 
     return (
 
@@ -48,7 +51,7 @@ export default function Experience() {
             <div className="container">
                 <h1>Experience</h1>
                 <ul className="exp">
-                    <button>Boardman Local Schools</button>
+                    <button onClick={handleClick}>Boardman Local Schools</button>
                     <button>Boardman Local Schools</button>
                     <button>Clear Cut Stump Grinding</button>
                 </ul>
