@@ -27,7 +27,7 @@ export default function Header() {
                     </a>
                 </li>
                 <li className="socialLink">
-                    <a href="../images/anthony_micco_resume.pdf" target="_blank">
+                    <a href="../images/anthony-micco-resume.pdf" target="_blank">
                         <button className="resume">Resume</button>
                     </a>
 
