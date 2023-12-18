@@ -24,12 +24,6 @@ export default function Header() {
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </li>
-                <li className="socialLink">
-                    <a href="../images/anthony-micco-resume.pdf" target="_blank">
-                        <button className="resume">Resume</button>
-                    </a>
-
-                </li>
             </ul>
         </section>
 
