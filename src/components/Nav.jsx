@@ -1,19 +1,26 @@
 import { AppBar, Box, Toolbar, Typography, Button } from '@mui/material/'
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 
 
 export default function Nav() {
+
+    const handleProjects = () => {
+
+    };
+
+    const handleResume = () => {
+        window.open("../images/anthony-micco-resume.pdf")
+    };
+
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
                 <AppBar position="static" sx={{ backgroundColor: "rgb(63, 63, 63)" }}>
                     <Toolbar>
-                        <Typography variant="h4" component="div" sx={{ flexGrow: 1 }}>
-                            Anthony Micco
+                        <Typography variant="h4" component="div" sx={{ flexGrow: 1, color: "skyblue" }}>
+                            &lt;Anthony Micco/&gt;
                         </Typography>
-                        <Button size="large" color="inherit">Projects</Button>
-                        <Button size="large" color="inherit">Resume</Button>
+                        <Button onClick={handleProjects} sx={{ fontSize: "xl", color: "skyblue" }}>Projects</Button>
+                        <Button onClick={handleResume} sx={{ fontSize: "xl", color: "skyblue" }}>Resume</Button>
                     </Toolbar>
                 </AppBar>
             </Box>
