@@ -4,12 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Header() {
     return (
         <section className="header">
-            <h1 className="name">Anthony Micco</h1>
             <p className="about">
-                I'm an aspiring software engineer pursuing a computer <br></br>
+                I am Anthony Micco, and I am an aspiring software engineer pursuing a computer <br></br>
                 science degree at Youngstown State University
             </p>
-            <img src="../images/portrait.jpg" alt="self portrait" />
             <ul className="socials">
                 <li className="socialLink">
                     <a className="github" href='https://github.com/Ajmicco18' target="_blank">
