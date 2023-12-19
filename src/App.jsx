@@ -6,7 +6,6 @@ import {
   Navigate
 } from 'react-router-dom';
 import Home from './components/Home.jsx'
-import Nav from "./components/Nav.jsx"
 import Projects from './components/Projects.jsx';
 
 
