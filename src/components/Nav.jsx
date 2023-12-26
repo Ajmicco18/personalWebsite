@@ -31,23 +31,23 @@ export default function Nav(props) {
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
-                {/*<ElevationScroll {...props}>*/}
-                <AppBar position="static" sx={{ backgroundColor: "rgb(63, 63, 63)" }}>
-                    <Toolbar>
-                        <Typography href="/Home"
-                            variant="h3"
-                            component="a"
-                            sx={{ flexGrow: 1, color: "skyblue", textDecoration: "none" }}>
-                            &lt;Anthony Micco/&gt;
-                        </Typography>
-                        <a href='/Projects'>
-                            <Button sx={{ fontSize: "xl", color: "skyblue" }}>Projects</Button>
-                        </a>
-                        <Button onClick={handleResume} sx={{ fontSize: "xl", color: "skyblue" }}>Resume</Button>
-                    </Toolbar>
-                </AppBar>
-                {/*</ElevationScroll>*/}
-            </Box>
+                <ElevationScroll {...props}>
+                    <AppBar sx={{ margin: "0 0 15px 0", backgroundColor: "rgb(63, 63, 63)" }}>
+                        <Toolbar>
+                            <Typography href="/Home"
+                                variant="h3"
+                                component="a"
+                                sx={{ margin: "0 0 0 5vh", flexGrow: 1, color: "skyblue", textDecoration: "none" }}>
+                                &lt;Anthony Micco/&gt;
+                            </Typography>
+                            <a href='/Projects'>
+                                <Button sx={{ margin: "0 12vh 0 0", fontSize: "xl", color: "skyblue" }}>Projects</Button>
+                            </a>
+                            <Button onClick={handleResume} sx={{ margin: "0 12vh 0 0", fontSize: "xl", color: "skyblue" }}>Resume</Button>
+                        </Toolbar>
+                    </AppBar>
+                </ElevationScroll>
+            </Box >
         </>
 
     )
