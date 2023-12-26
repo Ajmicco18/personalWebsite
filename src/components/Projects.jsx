@@ -4,9 +4,7 @@ export default function Projects() {
     return (
         <>
             <Nav></Nav>
-            <div>
-                Projects
-            </div>
+            <h1 color="white" >Projects</h1>
         </>
 
     )

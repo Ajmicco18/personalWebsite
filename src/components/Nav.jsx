@@ -41,9 +41,19 @@ export default function Nav(props) {
                                 &lt;Anthony Micco/&gt;
                             </Typography>
                             <a href='/Projects'>
-                                <Button sx={{ margin: "0 12vh 0 0", fontSize: "xl", color: "skyblue" }}>Projects</Button>
+                                <Button sx={{
+                                    margin: "0 12vh 0 0",
+                                    fontSize: "xl",
+                                    color: "skyblue",
+                                    '&:hover': { bgcolor: "gray" }
+                                }}>Projects</Button>
                             </a>
-                            <Button onClick={handleResume} sx={{ margin: "0 12vh 0 0", fontSize: "xl", color: "skyblue" }}>Resume</Button>
+                            <Button onClick={handleResume} sx={{
+                                margin: "0 12vh 0 0",
+                                fontSize: "xl",
+                                color: "skyblue",
+                                '&:hover': { bgcolor: "gray" }
+                            }}>Resume</Button>
                         </Toolbar>
                     </AppBar>
                 </ElevationScroll>

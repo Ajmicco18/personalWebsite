@@ -11,7 +11,7 @@ export default function Typewriter() {
         const timer = setTimeout(type, isDeleting ? 100 : 200);
 
         return () => clearTimeout(timer);
-    }, [wordIndex, isDeleting, text]);
+    });
 
     function type() {
         const currentWord = words[wordIndex];

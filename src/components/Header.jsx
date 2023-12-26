@@ -14,19 +14,19 @@ export default function Header() {
                 </CardContent>
                 <Box sx={{ display: "flex", alignItems: "center", pl: 1, pb: 5 }}>
                     <IconButton href="https://github.com/Ajmicco18" aria-label="GitHub">
-                        <GitHub sx={{ height: 60, width: 60, color: "white" }} />
+                        <GitHub sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }} />
                     </IconButton>
                     <IconButton href='https://linkedin.com/in/anthony-micco' aria-label="LinkedIn">
-                        <LinkedIn sx={{ height: 60, width: 60, color: "white" }} />
+                        <LinkedIn sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }} />
                     </IconButton>
                     <IconButton aria-label="email">
-                        <Email sx={{ height: 60, width: 60, color: "white" }}></Email>
+                        <Email sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }}></Email>
                     </IconButton>
                 </Box>
             </Box>
             <CardMedia
                 component="img"
-                sx={{ width: "50%", position: "sticky" }}
+                sx={{ maxWidth: "40%", position: "sticky" }}
                 image="../images/portrait.jpg"
                 alt="Self-portait"
             />

@@ -10,5 +10,6 @@ export default function Home() {
             <Header></Header>
             <AboutMe></AboutMe>
             <Experience></Experience>
-        </>)
+        </>
+    )
 }
