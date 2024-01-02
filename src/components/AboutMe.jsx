@@ -33,7 +33,11 @@ export default function AboutMe() {
                     </Typography>
                 </Grid>
                 <Grid item xs={6} md={4}>
-                    <Typography variant="h3" component="div" color="white" textAlign="center">
+                    <Typography variant="h3"
+                        component="div"
+                        color="white"
+                        textAlign="center"
+                        sx={{ textDecoration: "underline", textDecorationColor: "skyblue" }}>
                         Skills
                     </Typography>
                     <Grid container spacing={2}>
