@@ -37,7 +37,13 @@ export default function Nav(props) {
                             <Typography href="/Home"
                                 variant="h3"
                                 component="a"
-                                sx={{ margin: "0 0 0 5vh", flexGrow: 1, color: "skyblue", textDecoration: "none" }}>
+                                sx={{
+                                    margin: "0 0 0 5vh",
+                                    flexGrow: 1,
+                                    color: "skyblue",
+                                    textDecoration: "none",
+                                    '&:hover': { textDecoration: "underline", textDecorationColor: "gray" }
+                                }}>
                                 &lt;Anthony Micco/&gt;
                             </Typography>
                             <a href='/Projects'>

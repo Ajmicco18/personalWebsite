@@ -9,10 +9,10 @@ import {
 
 export default function AboutMe() {
     return (
-        <Container maxWidth="xl" sx={{ margin: "25vh 15vh 0 25vh" }}>
+        <Container maxWidth="xl" sx={{ margin: "25vh 10vh 0 30vh" }}>
             <Grid container spacing={2}>
                 <Grid item xs={6} md={6}>
-                    <Typography variant="h3" component="div" color="white">
+                    <Typography variant="h3" component="div" color="white" sx={{ textDecoration: "underline", textDecorationColor: "skyblue" }}>
                         About Me
                     </Typography>
                     <Typography variant="h6" component="p" color="white">

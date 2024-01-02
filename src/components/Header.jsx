@@ -8,7 +8,7 @@ export default function Header() {
             <Box sx={{ display: "flex", flexDirection: "column" }}>
                 <CardContent sx={{ flex: "1 0 auto" }}>
                     <Typography color="white" component="div" variant="h1">
-                        Anthony Micco
+                        Hi, I'm <br></br> Anthony Micco
                     </Typography>
                     <Typewriter></Typewriter>
                 </CardContent>

@@ -1,3 +1,9 @@
+import {
+    Container,
+    Grid,
+    Typography
+} from "@mui/material"
+
 export default function Experience() {
     const jobs = [
         {
@@ -41,23 +47,20 @@ export default function Experience() {
         }
     ]
 
-    const handleClick = () => {
-
-    }
-
     return (
 
-        <section className="experience">
-            <div className="container">
-                <h1>Experience</h1>
-                <ul className="exp">
-                    <button onClick={handleClick}>Boardman Local Schools</button>
-                    <button>Boardman Local Schools</button>
-                    <button>Clear Cut Stump Grinding</button>
-                </ul>
-            </div>
+        <Container maxWidth="xl" sx={{ margin: "25vh 10vh 0 30vh" }}>
+            <Grid container spacing={2}>
+                <Grid item xs={6} md={6}>
+                    <Typography variant="h3" component="div" color="white" sx={{ textDecoration: "underline", textDecorationColor: "skyblue" }}>
+                        Work Experience
+                    </Typography>
 
-        </section>
+                </Grid>
+
+            </Grid>
+
+        </Container>
 
     )
 }
