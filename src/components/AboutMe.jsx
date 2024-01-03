@@ -16,7 +16,7 @@ export default function AboutMe() {
                         About Me
                     </Typography>
                     <Typography variant="h6" component="p" color="white">
-                        Hello! I am Anthony Micco. I was inspired to pursue a career in the
+                        <br></br>Hello! I am Anthony Micco. I was inspired to pursue a career in the
                         computer science field after taking a computer science course during
                         my sophomore year of high school. Since that time, I have devloped a passion
                         for coding and devloping software and look forward to continuing to learn
@@ -38,7 +38,7 @@ export default function AboutMe() {
                         color="white"
                         textAlign="center"
                         sx={{ textDecoration: "underline", textDecorationColor: "skyblue" }}>
-                        Skills
+                        Skills <br></br><br></br>
                     </Typography>
                     <Grid container spacing={2}>
                         <Grid item xs={6} md={6}>

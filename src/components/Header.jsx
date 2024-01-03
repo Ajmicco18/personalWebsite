@@ -19,7 +19,7 @@ export default function Header() {
                     <IconButton href='https://linkedin.com/in/anthony-micco' aria-label="LinkedIn">
                         <LinkedIn sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }} />
                     </IconButton>
-                    <IconButton aria-label="email">
+                    <IconButton href="mailto:anthonymicco2003@gmail.com" aria-label="email">
                         <Email sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }}></Email>
                     </IconButton>
                 </Box>
