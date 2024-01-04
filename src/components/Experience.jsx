@@ -85,6 +85,22 @@ export default function Experience() {
                     </Accordion>
                     <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
+                            <Typography variant="h4" component="header">Youngstown State University</Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <Typography variant="h4" component="header">
+                                Software Engineer
+                            </Typography>
+                            <Typography variant="h6" component="div">
+                                <br></br> TBA
+                            </Typography>
+                            <Typography variant="h6" component="header">
+                                <br></br>January 2024-Present
+                            </Typography>
+                        </AccordionDetails>
+                    </Accordion>
+                    <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+                        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                             <Typography variant="h4" component="header">Boardman Local School District</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -104,8 +120,8 @@ export default function Experience() {
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-                        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
+                    <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+                        <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
                             <Typography variant="h4" component="header">Boardman Local School District</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -125,8 +141,8 @@ export default function Experience() {
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-                        <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
+                    <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+                        <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
                             <Typography variant="h4" component="header">Clear Cut Stump Grinding</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
