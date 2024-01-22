@@ -164,7 +164,6 @@ export default function Experience() {
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
-
                 </Grid>
             </Grid>
         </Container>
