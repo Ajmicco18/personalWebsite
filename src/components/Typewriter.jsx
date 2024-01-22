@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-const words = ["Student", "Software Engineer", "Coach"]
+const words = ["Student", "Software Developer"]
 
 export default function Typewriter() {
 
