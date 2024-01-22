@@ -89,10 +89,12 @@ export default function Experience() {
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography variant="h4" component="header">
-                                Software Engineer
+                                Software Developer
                             </Typography>
                             <Typography variant="h6" component="div">
-                                <br></br> TBA
+                                <br></br> As a student software developer at Youngstown State University,
+                                I utilize my skills in HTML5, JavaScript and CSS to respond to revision tickets
+                                and provide the appropriate changes to the Youngstown State University website.
                             </Typography>
                             <Typography variant="h6" component="header">
                                 <br></br>January 2024-Present
