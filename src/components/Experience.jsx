@@ -10,24 +10,6 @@ import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import { useState } from "react";
 
-
-const Wrapper = styled(Container)(({ theme }) => ({
-    maxWidth: "xl",
-    margin: "25vh 10vh 25vh 30vh",
-    [theme.breakpoints.down("lg")]: {
-        margin: "25vh 20vh 25vh 20vh",
-        fontSize: "10px"
-
-    },
-    [theme.breakpoints.down("md")]: {
-        margin: "25vh 25vh 25vh 0vh",
-
-    },
-    [theme.breakpoints.down("sm")]: {
-        margin: "25vh 25vh 25vh 0vh",
-
-    }
-}))
 const Accordion = styled((props) => (
     <MuiAccordion disableGutters elevation={0} square {...props} />
 
