@@ -69,14 +69,16 @@ export default function Experience() {
                 <Grid item xs={6} md={8} margin="0 0 0 25vh">
                     <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                            <Typography variant="h4" component="header">Tailored Alloy</Typography>
+                            <Typography variant="h4" component="header">Tailored Alloys</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography variant="h4" component="header">
-                                Data Scientist
+                                Software Developer
                             </Typography>
                             <Typography variant="h6" component="div">
-                                <br></br> TBA
+                                <br></br> As a software developer at Tailored Alloys, I utilize my problem-solving skills
+                                and knowledge of the python programming language to contribute to the development of Laser
+                                Powder Bed Fusion machine software.
                             </Typography>
                             <Typography variant="h6" component="header">
                                 <br></br>January 2024-Present
