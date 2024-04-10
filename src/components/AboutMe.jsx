@@ -8,10 +8,11 @@ import {
 } from "@mui/material"
 
 export default function AboutMe() {
+
     return (
         <Container maxWidth="xl" sx={{ margin: "25vh 10vh 0 30vh" }}>
             <Grid container spacing={2}>
-                <Grid item xs={6} md={6}>
+                <Grid item xs={12} md={6}>
                     <Typography variant="h3" component="div" color="white" sx={{ textDecoration: "underline", textDecorationColor: "skyblue" }}>
                         About Me
                     </Typography>
@@ -32,7 +33,7 @@ export default function AboutMe() {
                         Boardman, Ohio.
                     </Typography>
                 </Grid>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={6}>
                     <Typography variant="h3"
                         component="div"
                         color="white"
@@ -117,7 +118,7 @@ export default function AboutMe() {
                                 </ListItem>
                             </List>
                         </Grid>
-                        <Grid item xs={6} md={4}>
+                        <Grid item xs={6} md={6}>
                             <List sx={{ alignItems: "center" }}>
                                 <ListItem disablePadding>
                                     <ListItemText
