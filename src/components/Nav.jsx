@@ -32,31 +32,32 @@ export default function Nav(props) {
         <>
             <Box sx={{ flexGrow: 1 }}>
                 <ElevationScroll {...props}>
-                    <AppBar sx={{ margin: "0 0 15px 0", backgroundColor: "rgb(63, 63, 63)" }}>
+                    <AppBar sx={{ margin: "auto", backgroundColor: "rgb(63, 63, 63)" }}>
                         <Toolbar>
                             <Typography href="/Home"
-                                variant="h3"
+                                variant="h4"
                                 component="a"
                                 sx={{
-                                    margin: "0 0 0 5vh",
+                                    margin: "auto",
                                     flexGrow: 1,
                                     color: "skyblue",
                                     textDecoration: "none",
+                                    fontSize: { xs: "20px", md: "2rem" },
                                     '&:hover': { textDecoration: "underline", textDecorationColor: "gray" }
                                 }}>
                                 &lt;Anthony Micco/&gt;
                             </Typography>
                             <a href='/Projects'>
                                 <Button sx={{
-                                    margin: "0 12vh 0 0",
-                                    fontSize: "xl",
+                                    margin: "auto",
+                                    fontSize: { xs: "10px", md: "1rem" },
                                     color: "skyblue",
                                     '&:hover': { bgcolor: "gray" }
                                 }}>Projects</Button>
                             </a>
                             <Button onClick={handleResume} sx={{
-                                margin: "0 12vh 0 0",
-                                fontSize: "xl",
+                                margin: "auto",
+                                fontSize: { xs: "10px", md: "1rem" },
                                 color: "skyblue",
                                 '&:hover': { bgcolor: "gray" }
                             }}>Resume</Button>

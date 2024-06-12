@@ -1,35 +1,41 @@
 import { Email, GitHub, LinkedIn } from "@mui/icons-material";
-import { Card, CardContent, CardMedia, IconButton, Typography, Box } from "@mui/material";
+import { Card, CardContent, CardMedia, IconButton, Typography, Box, Container } from "@mui/material";
 import Typewriter from "./Typewriter";
 
 export default function Header() {
     return (
-        <Card sx={{ margin: "10vh 20vh 0 20vh", display: "flex", backgroundColor: "rgb(63, 63, 63)" }}>
-            <Box sx={{ display: "flex", flexDirection: "column" }}>
-                <CardContent sx={{ flex: "1 0 auto" }}>
-                    <Typography color="white" component="div" variant="h1">
-                        Hi, I'm <br></br> Anthony Micco
-                    </Typography>
-                    <Typewriter></Typewriter>
-                </CardContent>
-                <Box sx={{ display: "flex", alignItems: "center", pl: 1, pb: 5 }}>
-                    <IconButton href="https://github.com/Ajmicco18" aria-label="GitHub">
-                        <GitHub sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }} />
-                    </IconButton>
-                    <IconButton href='https://linkedin.com/in/anthony-micco' aria-label="LinkedIn">
-                        <LinkedIn sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }} />
-                    </IconButton>
-                    <IconButton href="mailto:anthonymicco2003@gmail.com" aria-label="email">
-                        <Email sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }}></Email>
-                    </IconButton>
+        <Box marginTop={10} marginBottom={2} display={"flex"} alignItems={"center"} justifyContent={"center"}>
+            <Container maxWidth="fixed">
+                <Box display={"flex"} justifyContent={"center"}>
+                    <Card sx={{ display: "flex", maxWidth: "100%", backgroundColor: "rgb(63, 63, 63)" }}>
+                        <Box sx={{ display: "flex", flexDirection: "column" }}>
+                            <CardContent sx={{ flex: "1 0 auto" }}>
+                                <Typography color="white" component="div" variant="h1" sx={{ fontSize: { xs: "4rem", md: "70px" } }}>
+                                    Hi, I'm <br></br> Anthony Micco
+                                </Typography>
+                                <Typewriter></Typewriter>
+                            </CardContent>
+                            <Box sx={{ display: "flex", alignItems: "center", pl: 1, pb: 1 }}>
+                                <IconButton href="https://github.com/Ajmicco18" aria-label="GitHub">
+                                    <GitHub sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }} />
+                                </IconButton>
+                                <IconButton href='https://linkedin.com/in/anthony-micco' aria-label="LinkedIn">
+                                    <LinkedIn sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }} />
+                                </IconButton>
+                                <IconButton href="mailto:anthonymicco2003@gmail.com" aria-label="email">
+                                    <Email sx={{ height: 60, width: 60, color: "white", '&:hover': { color: "skyblue" } }}></Email>
+                                </IconButton>
+                            </Box>
+                        </Box>
+                        <CardMedia
+                            component="img"
+                            sx={{ maxWidth: "40%", position: "sticky", opacity: { xs: "0%", md: "100%" } }}
+                            image="../images/portrait.jpg"
+                            alt="Self-portait"
+                        />
+                    </Card>
                 </Box>
-            </Box>
-            <CardMedia
-                component="img"
-                sx={{ maxWidth: "40%", position: "sticky" }}
-                image="../images/portrait.jpg"
-                alt="Self-portait"
-            />
-        </Card>
+            </Container>
+        </Box>
     )
 }
