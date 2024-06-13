@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react"
 const words = ["Student", "Software Developer"]
 
@@ -30,6 +31,13 @@ export default function Typewriter() {
     }
 
     return (
-        <h1 >{text}</h1>
+        <Box component="h2"
+            sx={{
+                fontSize: { xs: "30px", sm: "50px" },
+                textAlign: { xs: "center", sm: "left" },
+                color: "white"
+            }}>
+            {text}
+        </Box>
     )
 }

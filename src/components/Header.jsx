@@ -5,12 +5,12 @@ import Typewriter from "./Typewriter";
 export default function Header() {
     return (
         <Box marginTop={10} marginBottom={2} display={"flex"} alignItems={"center"} justifyContent={"center"}>
-            <Container maxWidth="fixed">
-                <Box display={"flex"} justifyContent={"center"}>
+            <Container >
+                <Box display={"flex"} justifyContent={"center"} maxWidth={"100%"}>
                     <Card sx={{ display: "flex", maxWidth: "100%", backgroundColor: "rgb(63, 63, 63)" }}>
-                        <Box sx={{ display: "flex", flexDirection: "column" }}>
-                            <CardContent sx={{ flex: "1 0 auto" }}>
-                                <Typography color="white" component="div" variant="h1" sx={{ fontSize: { xs: "4rem", md: "70px" } }}>
+                        <Box sx={{ display: "flex", flexDirection: "column", maxWidth: "2000px", padding: "50px" }}>
+                            <CardContent maxWidth="100%" sx={{ flex: "1 0 auto" }}>
+                                <Typography color="white" component="div" variant="h1" sx={{ textAlign: { xs: "center", sm: "left" }, fontSize: { xs: "4rem", md: "70px" } }}>
                                     Hi, I'm <br></br> Anthony Micco
                                 </Typography>
                                 <Typewriter></Typewriter>
@@ -29,7 +29,7 @@ export default function Header() {
                         </Box>
                         <CardMedia
                             component="img"
-                            sx={{ maxWidth: "40%", position: "sticky", opacity: { xs: "0%", md: "100%" } }}
+                            sx={{ maxWidth: "40%", position: "sticky", opacity: { xs: "0%", sm: "100%" } }}
                             image="../images/portrait.jpg"
                             alt="Self-portait"
                         />
