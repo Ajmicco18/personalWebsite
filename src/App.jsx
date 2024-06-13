@@ -7,11 +7,13 @@ import {
 } from 'react-router-dom';
 import Home from './components/Home.jsx'
 import Projects from './components/Projects.jsx';
+import Nav from './components/Nav.jsx';
 
 
 function App() {
   return (
     <>
+      <Nav></Nav>
       <Router>
         <Routes>
           <Route
