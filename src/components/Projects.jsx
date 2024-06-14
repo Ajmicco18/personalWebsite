@@ -6,7 +6,6 @@ import {
     IconButton
 } from "@mui/material"
 import { GitHub } from "@mui/icons-material"
-import { width } from "@fortawesome/free-brands-svg-icons/fa42Group"
 
 export default function Projects() {
     return (
