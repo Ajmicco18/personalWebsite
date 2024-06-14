@@ -11,6 +11,9 @@ import Nav from './components/Nav.jsx';
 
 
 function App() {
+
+  const year = new Date().getFullYear()
+
   return (
     <>
       <Nav></Nav>
@@ -29,7 +32,7 @@ function App() {
           />
         </Routes>
       </Router>
-      <footer> Designed and Developed by Anthony Micco &copy;2023 </footer>
+      <footer> Designed and Developed by Anthony Micco &copy;{year} </footer>
     </>
 
   );

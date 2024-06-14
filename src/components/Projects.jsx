@@ -3,10 +3,10 @@ import {
     Stack,
     Typography,
     Box,
-    IconButton,
-    Grid
+    IconButton
 } from "@mui/material"
 import { GitHub } from "@mui/icons-material"
+import { width } from "@fortawesome/free-brands-svg-icons/fa42Group"
 
 export default function Projects() {
     return (
@@ -30,35 +30,29 @@ export default function Projects() {
                             sx={{
                                 maxWidth: "1000px"
                             }}>
-                            <Grid container spacing={2} sx={{ justifyContent: "center", alignItems: "center" }}>
-                                <Grid item xs={12} md={6}>
-                                    <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100%" }}>
-                                        <img src="../images/ffi.png" alt="Fantasy Football Project" style={{ maxWidth: "100%", height: "auto" }} />
-                                    </Box>
-                                </Grid>
-                                <Grid item xs={12} md={6}>
-                                    <Box borderRadius="10px" sx={{
-                                        backgroundColor: "red",
-                                        padding: 2,
-                                        height: "100%",
-                                        display: "flex",
-                                        flexDirection: "column",
-                                        justifyContent: "center"
-                                    }}>
-                                        <Typography variant="h4" component="header" sx={{ fontWeight: "bold", fontSize: { xs: "24px", md: "34px" } }}>Fantasy Football Insights</Typography>
-                                        <Typography variant="h5" component="header" sx={{ fontSize: { xs: "20px", md: "30px" } }}>Personal Project<br></br><br></br></Typography>
-                                        <Typography variant="h6" component="p" sx={{ fontSize: { xs: "18px", md: "28px" } }}>
-                                            Fantasy Football Insights is an idea based largely on existing fantasy football apps such as ESPN Fantasy Football,
-                                            Sleeper, and Yahoo! Fantasy Football, among others, along with a passion for football.
-                                            The idea is to improve upon ideas from these existing applications to create the best possible fantasy football assistance
-                                            software as well as help users win their leagues.
-                                        </Typography>
-                                        <IconButton href="https://github.com/Fantasy-Football-Insights" aria-label="GitHub">
-                                            <GitHub sx={{ height: 60, width: 60, color: "black", '&:hover': { color: "white" } }} />
-                                        </IconButton>
-                                    </Box>
-                                </Grid>
-                            </Grid>
+                            <Stack marginTop={10} spacing={6} direction={{ xs: "column", md: "row" }}>
+                                <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
+                                    <img src="../images/ffi.png" style={{ display: "block", margin: "auto", width: "400px" }} />
+                                </Box>
+                                <Box borderRadius="10px" sx={{
+                                    backgroundColor: "red",
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    justifyContent: "center"
+                                }}>
+                                    <Typography variant="h4" component="header" sx={{ fontWeight: "bold", fontSize: { xs: "24px", md: "34px" } }}>Fantasy Football Insights</Typography>
+                                    <Typography variant="h5" component="header" sx={{ fontSize: { xs: "20px", md: "30px" } }}>Personal Project<br></br><br></br></Typography>
+                                    <Typography variant="h6" component="p" sx={{ fontSize: { xs: "18px", md: "28px" } }}>
+                                        Fantasy Football Insights is an idea based largely on existing fantasy football apps such as ESPN Fantasy Football,
+                                        Sleeper, and Yahoo! Fantasy Football, among others, along with a passion for football.
+                                        The idea is to improve upon ideas from these existing applications to create the best possible fantasy football assistance
+                                        software as well as help users win their leagues.
+                                    </Typography>
+                                    <IconButton href="https://github.com/Fantasy-Football-Insights" aria-label="GitHub">
+                                        <GitHub sx={{ height: 60, width: 60, color: "black", '&:hover': { color: "white" } }} />
+                                    </IconButton>
+                                </Box>
+                            </Stack>
                         </Container>
                     </Box>
                     <Stack marginTop={10} spacing={6} direction={{ xs: "column", md: "row" }} sx={{ justifyContent: "center", alignItems: "center" }}>

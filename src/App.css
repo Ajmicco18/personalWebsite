@@ -93,16 +93,6 @@ h1 {
     background-color: skyblue;
 }
 
-img {
-    width: 500px;
-    height: 550px;
-    position: relative;
-    left: 785px;
-    top: -315px;
-    display: block;
-
-}
-
 /********AboutMe********/
 .about-me {
     margin-top: 150px;
