@@ -29,12 +29,11 @@ export default function Projects() {
                         <Container
                             sx={{
                                 maxWidth: "1000px"
-                            }}
-                        >
+                            }}>
                             <Grid container spacing={2} sx={{ justifyContent: "center", alignItems: "center" }}>
                                 <Grid item xs={12} md={6}>
                                     <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100%" }}>
-                                        {/*<img src="../images/ffi.png" alt="Fantasy Football Project" style={{ maxWidth: "100%", height: "auto" }} />*/}
+                                        <img src="../images/ffi.png" alt="Fantasy Football Project" style={{ maxWidth: "100%", height: "auto" }} />
                                     </Box>
                                 </Grid>
                                 <Grid item xs={12} md={6}>
