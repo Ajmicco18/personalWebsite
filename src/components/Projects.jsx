@@ -31,7 +31,7 @@ export default function Projects() {
                             }}>
                             <Stack marginTop={10} spacing={6} direction={{ xs: "column", md: "row" }}>
                                 <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", textAlign: "center" }}>
-                                    <img src="../images/ffi.png" style={{ display: "block", margin: "auto", width: "400px" }} />
+                                    <img src="../images/ffi.png" alt="Fantasy Football Insights" style={{ display: "block", margin: "auto", width: "400px" }} />
                                 </Box>
                                 <Box borderRadius="10px" sx={{
                                     backgroundColor: "red",
