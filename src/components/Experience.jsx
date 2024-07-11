@@ -84,8 +84,9 @@ export default function Experience() {
                                     Software Developer
                                 </Typography>
                                 <Typography variant="h6" component="div" sx={{ fontSize: { xs: "20px", sm: "1rem" } }}>
-                                    <br></br> As a software developer at Tailored Alloys, I utilize my problem-solving skills
-                                    and knowledge of the python programming language to contribute to the development of Laser
+                                    <br></br> As a software developer at Tailored Alloys, I contribute to the development of a manufacturing software recommendation
+                                    application. I work with a React framework for the frontend and a Python backend using a Django backend framework with a MySQL database.
+                                    Additionally, I utilize my problem-solving skills and knowledge of the python programming language to contribute to the development of Laser
                                     Powder Bed Fusion machine software.
                                 </Typography>
                                 <Typography variant="h6" component="header" sx={{ fontSize: { xs: "20px", sm: "1rem" } }}>

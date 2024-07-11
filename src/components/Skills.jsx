@@ -50,7 +50,7 @@ export default function Skills() {
                             <Grid container spacing={2} justifyContent="center">
                                 <Grid item xs={6} sm={6}>
                                     <List>
-                                        {["Java", "Python", "CSS", "JavaScript", "React", "Git"].map(skill => (
+                                        {["Java", "Python", "HTML", "JavaScript", "React", "SQL", "DynamoDB", "VS Code"].map(skill => (
                                             <ListItem key={skill} disablePadding>
                                                 <ListItemText
                                                     primary={skill}
@@ -69,7 +69,7 @@ export default function Skills() {
                                 </Grid>
                                 <Grid item xs={6} sm={6}>
                                     <List>
-                                        {["C++", "SQL", "HTML", "TypeScript", "R", "VS Code"].map(skill => (
+                                        {["C++", "R", "CSS", "TypeScript", "Django", "MonogDB", "JupyterLab", "Git"].map(skill => (
                                             <ListItem key={skill} disablePadding>
                                                 <ListItemText
                                                     primary={skill}
