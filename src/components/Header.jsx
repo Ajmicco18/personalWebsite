@@ -30,7 +30,7 @@ export default function Header() {
                         <CardMedia
                             component="img"
                             sx={{ maxWidth: "40%", position: "sticky", opacity: { xs: "0%", sm: "100%" } }}
-                            image="../images/portrait.png"
+                            image={"../images/portrait.jpg"}
                             alt="Anthony Micco"
                         />
                     </Card>
